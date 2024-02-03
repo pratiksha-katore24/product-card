@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .product-card {
+            border: 3px solid pink;
+            box-shadow: 5px 5px 10px 10px black;
+            width: 300px;
+            height: 450px;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-title {
+            margin-top: 10px;
+            font-size: 1.5em;
+        }
+
+        .product-description {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        .product-price {
+            text-decoration: line-through;
+            margin-top: 5px;
+            color: grey;
+        }
+
+        .discounted-price {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: darkred;
+        }
+
+        .buy-button {
+            margin-top: 15px;
+            background-color: darkred;
+            color: aliceblue;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="purse.jpg" class="product-image" alt="Purse Image"/>
+        <h2 class="product-title">Purse</h2>
+        <p class="product-description">Beautiful purse! Buy it at a discounted price.</p>
+        <p class="product-price">RS 1999/-</p>
+        <p class="discounted-price">RS 1499/-</p>
+        <button class="buy-button">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="purse2.jpg" class="product-image" alt="Purse Image"/>
+        <h2 class="product-title">Purse</h2>
+        <p class="product-description">Beautiful purse! Buy it at a discounted price.</p>
+        <p class="product-price">RS 1999/-</p>
+        <p class="discounted-price">RS 1499/-</p>
+        <button class="buy-button">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="purse3.jpg" class="product-image" alt="Purse Image"/>
+        <h2 class="product-title">Purse</h2>
+        <p class="product-description">Beautiful purse! Buy it at a discounted price.</p>
+        <p class="product-price">RS 1999/-</p>
+        <p class="discounted-price">RS 1499/-</p>
+        <button class="buy-button">Buy Now</button>
+    </div>
+</body>
+</html>
